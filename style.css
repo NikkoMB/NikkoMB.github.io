@@ -14,7 +14,7 @@ body {
     border-top-style: 5px;
     border-left-style: 5px;
     border-bottom-width: 5px;
-    background-color: lightgray;
+    
 }
 
 /*Centering Content */
@@ -139,6 +139,7 @@ h1 {
     background-color: gray;
     color: white;
     text-align: center; 
+    margin-bottom: 50px; 
 }
 
 
