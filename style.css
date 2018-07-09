@@ -18,6 +18,10 @@ body {
     
 }
 
+#photo{
+    margin-left: 255px; 
+}
+
 /*Centering Content */
 .property {
     margin: auto;
