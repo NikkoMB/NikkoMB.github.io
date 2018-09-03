@@ -9,6 +9,36 @@
    
 }
 
+#work{
+  width: 920px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0; 
+  background-color: white; 
+  margin-left: 110px; 
+  margin-top: 70px; 
+ 
+}
+
+#basketball{
+  margin-left: 50px; 
+}
+
+#giphy{
+  width: 200px; 
+  margin-left: 100px; 
+
+}
+#heroes{
+  width: 300px; 
+  margin-left: 50px; 
+}
+
+#trivia{
+  width: 200px;
+  margin-left: 50px; 
+}
+
 button {
     background-color:blue;
     border: none;
@@ -22,7 +52,7 @@ button {
     cursor: pointer;
 }
 
-img{
+#picture{
     margin-left: 180px; 
     border-radius: 8px;
 }
@@ -33,6 +63,10 @@ img{
 
 h4{
     margin-left: 200px; 
+}
+
+h5{
+  margin-left: 100px; 
 }
 
 /* ||||||||||||[MEDIA QUERIES]||||||| [MEDIA QUERIES] */
