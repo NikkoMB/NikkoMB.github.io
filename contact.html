@@ -3,66 +3,37 @@
 <html lang="en-us">
 
 <head>
-  <link rel="shortcut icon" type="image/x-icon" href="http://d-h.st/images/folder.gif" />
-  <title>Contact Me</title>
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-    crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
-
-  <div class="header-bar">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand">Nikko Bustillo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href=index.html>About Me
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href=contact.html>Contact Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href=portfolio.html>Portfolio</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-  </div>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>About Me</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
 </head>
-
-<body background="http://gdj.graphicdesignjunction.com/wp-content/uploads/2014/05/003+background+pattern+designs.jpg">
-  <div class="property">
-    <h1 class="header">Contact Me</h1>
-
-    <form>
-      Name
-      <br>
-      <input type="text" name="firstname" size="80">
-      <br> E-Mail
-      <br>
-      <input type="text" name="E-Mail" size="80">
-      <br> Message
-      <br>
-      <textarea placeholder="Write Here..." rows="10" cols="80"></textarea>
-      <br>
-      <input id="button" type="submit" value="submit">
-    </form>
-  </div>
+<body  background="assets/images/background.png">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+   
+        <header class="mdl-layout__header">
+          <div class="mdl-layout__header-row">
+              <h3 id="text">
+                 Contact Me 
+              </h3>
+          </div>
+        </header>
+        <div class="mdl-layout__drawer">
+          <span class="mdl-layout-title">Navigate Here</span>
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="index.html">About</a>
+            <a class="mdl-navigation__link" href="contact.html">Contact</a>
+            <a class="mdl-navigation__link" href="portfolio.html">Portfolio</a>
+          </nav>
+        </div>
+        <main class="mdl-layout__content">
+          <div class="page-content">
 </body>
-<footer>
-  <div class="row">
-    <div class="col-lg-12">
-      <p>
-        Copyright &copy; Nikko Bustillo </p>
-      </p>
-    </div>
-</footer>
 
 
 </html>

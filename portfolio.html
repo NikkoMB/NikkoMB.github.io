@@ -1,133 +1,40 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-    <link rel="shortcut icon" type="image/x-icon" href="http://d-h.st/images/folder.gif" />
-    <title>Portfolio</title>
-    <div class="header-bar">
-            <nav class="black navbar navbar-expand-lg navbar-light bg-light">
-              <a class="navbar-brand">Nikko Bustillo</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href=index.html>About Me
-                      <span class="sr-only">(current)</span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href=contact.html>Contact Me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href=portfolio.html>Portfolio</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-        </div>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-        crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+
 </head>
 
-<body background="http://gdj.graphicdesignjunction.com/wp-content/uploads/2014/05/003+background+pattern+designs.jpg">
-    <div class="property">
-        <h1 class="header">Portfolio</h>
+<body background="assets/images/background.png">
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
-
-    </div>
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <h3 id="text">
+                   Portfolio 
+                </h3>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Navigate Here</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="index.html">About</a>
+                <a class="mdl-navigation__link" href="contact.html">Contact</a>
+                <a class="mdl-navigation__link" href="portfolio.html">Portfolio</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="page-content">
 </body>
-
-<div class="container">
-    <div class="row">
-        <div class="col-sm-9" style="background:#fff">
-            <!-- Projects Row -->
-            <div class="row">
-                <div class="col-md-6 portfolio-item">
-                    <a href="https://teamsend.github.io/ProjectSuperDens/">
-                        <img class="img-responsive" src="images/super-heroes .jpeg" width="400" height="300">
-                    </a>
-                    <h3>
-                        <a href="https://teamsend.github.io/ProjectSuperDens/">Super Hero Database </a>
-                    </h3>
-                    <p>With my front-end wireframe contribution, my group members and I 
-                        were able to build a database for Marvel super heroes! 
-                    </p>
-                </div>
-                <div class="col-md-6 portfolio-item">
-                    <a href="https://nikkomb.github.io/unit-4-game/">
-                        <img class="img-responsive" src="images/amethyst.jpg" alt="crystals">
-                    </a>
-                    <h3>
-                        <a href="https://nikkomb.github.io/unit-4-game/">Crystal game</a>
-                    </h3>
-                    <p>Try to  match the random number!</p>
-                </div>
-            </div>
-            <!-- /.row -->
-            <!-- Projects Row -->
-            <div class="row">
-                <div class="col-md-6 portfolio-item">
-                    <a href="https://nikkomb.github.io/giphyhw/">
-                        <img class="img-responsive" src="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/0c/60/99/0c609935-f72f-7de7-b769-02dadc62de9a/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/246x0w.jpg"
-                            alt="">
-                    </a>
-                    <h3>
-                        <a href="https://nikkomb.github.io/giphyhw/">GifTastic</a>
-                    </h3>
-                    <p>Search through Giphy via API.</p>
-                </div>
-                <div class="col-md-6 portfolio-item">
-                    <a href="#">
-                        <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                    </a>
-                    <h3>
-                        <a href="#">Project Four</a>
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque
-                        urna varius vitae.</p>
-                </div>
-            </div>
-            <!-- /.row -->
-            <!-- Projects Row -->
-            <div class="row">
-                <div class="col-md-6 portfolio-item">
-                    <a href="#">
-                        <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                    </a>
-                    <h3>
-                        <a href="#">Project Five</a>
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque
-                        urna varius vitae.</p>
-                </div>
-                <div class="col-md-6 portfolio-item">
-                    <a href="#">
-                        <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                    </a>
-                    <h3>
-                        <a href="#">Project Six</a>
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque
-                        urna varius vitae.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<footer>
-    <div class="row">
-        <div class="col-lg-12">
-            <p>
-                Copyright &copy; Nikko Bustillo </p>
-            </p>
-        </div>
-    </div>
-</footer>
-
 
 </html>
