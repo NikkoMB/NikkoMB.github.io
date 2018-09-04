@@ -20,19 +20,25 @@
  
 }
 
-#gem{
-  margin-left: 50px; 
-}
-
 #data{
   margin-left: 300px;
   margin-bottom: 300px; 
   
 }
 
+/*-------------- CSS FOR IMAGES -------------*/
+#gem{
+  margin-left: 50px; 
+}
+
+
+#psychic{
+  margin-left: 70px;
+}
 #basketball{
   margin-left: 70px;
   width: 200px;  
+  margin-bottom: 30px; 
 }
 
 #giphy{
@@ -54,7 +60,7 @@
   width: 200px;
   margin-left: 50px; 
 }
-
+/*-----------------------------*/
 button {
     background-color:blue;
     border: none;
