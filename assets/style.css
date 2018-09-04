@@ -20,18 +20,34 @@
  
 }
 
-#basketball{
+#gem{
   margin-left: 50px; 
+}
+
+#data{
+  margin-left: 300px;
+  margin-bottom: 300px; 
+  
+}
+
+#basketball{
+  margin-left: 70px;
+  width: 200px;  
 }
 
 #giphy{
-  width: 200px; 
-  margin-left: 100px; 
+  width: 200px;
+  margin-left: 50px; 
+  margin-bottom: 50px; 
 
 }
-#heroes{
+
+#trivia{
   width: 300px; 
-  margin-left: 50px; 
+}
+#heroes{
+  width: 200px; 
+  margin-left: 100px; 
 }
 
 #trivia{
@@ -67,6 +83,22 @@ h4{
 
 h5{
   margin-left: 100px; 
+}
+/*||||||||||||||||||||||||||||||||||||||||||||||*/
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 /* ||||||||||||[MEDIA QUERIES]||||||| [MEDIA QUERIES] */
