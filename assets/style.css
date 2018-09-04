@@ -23,9 +23,15 @@
 #data{
   margin-left: 300px;
   margin-bottom: 300px; 
-  
 }
 
+h6{
+  margin-left: 15px; 
+  color: black;
+}
+ #demo-menu-lower-left{
+   margin-left: 430px; 
+ }
 /*-------------- CSS FOR IMAGES -------------*/
 #gem{
   margin-left: 50px; 
