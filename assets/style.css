@@ -35,11 +35,9 @@ h6{
 /*-------------- CSS FOR IMAGES -------------*/
 #gem{
   margin-left: 50px; 
-}
-
-#gem{
   width: 250px; 
 }
+
 #psychic{
   margin-left: 70px;
 }
@@ -58,16 +56,14 @@ h6{
 
 #trivia{
   width: 300px; 
+  width: 200px;
+  margin-left: 50px; 
 }
 #heroes{
   width: 200px; 
   margin-left: 100px; 
 }
 
-#trivia{
-  width: 200px;
-  margin-left: 50px; 
-}
 /*-----------------------------*/
 button {
     background-color:blue;
@@ -98,6 +94,7 @@ h4{
 h5{
   margin-left: 100px; 
 }
+
 /*||||||||||||||||||||||||||||||||||||||||||||||*/
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -160,6 +157,36 @@ h5{
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    #work{
+      width: 500px; 
+      margin-left: 250px; 
+
+    }
+    #gem{
+      width: 100px;
+    }
+    
+    #psychic{
+      width: 80px;  
+    }
+    #basketball{
+    width: 70px; 
+    }
+    
+    #giphy{
+      width: 100px;
+    }
+    
+    #trivia{
+      width: 100px;
+    }
+    #heroes{
+      width: 100px; 
+    }
+    #demo-menu-lower-left{
+
+    }
+
 }
 
 /* Landscape */
