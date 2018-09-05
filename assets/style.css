@@ -95,6 +95,10 @@ h5{
   margin-left: 100px; 
 }
 
+h6{
+  margin-left: 30px; 
+}
+
 /*||||||||||||||||||||||||||||||||||||||||||||||*/
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -110,6 +114,15 @@ h5{
     flex: 100%;
     max-width: 100%;
   }
+}
+
+.mobileShow {display: none;} 
+
+/* Smartphone Portrait and Landscape */ 
+@media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px){ 
+    .mobileShow {display: inline;}
 }
 
 /* ||||||||||||[MEDIA QUERIES]||||||| [MEDIA QUERIES] */
