@@ -99,6 +99,23 @@ h6{
   margin-left: 30px; 
 }
 
+textarea{
+  margin-top: 30px; 
+  margin-left: 300px; 
+  width: 500px; 
+  height: 300px;
+}
+
+input{
+  margin-top: 100px; 
+  width: 495px; 
+  margin-left: 300px; 
+  height: 30px;
+}
+#send{
+  margin-left: 490px; 
+}
+
 /*||||||||||||||||||||||||||||||||||||||||||||||*/
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -116,14 +133,14 @@ h6{
   }
 }
 
-.mobileShow {display: none;} 
+ .mobileShow {display: none;} 
 
-/* Smartphone Portrait and Landscape */ 
-@media only screen 
-  and (min-device-width : 320px) 
-  and (max-device-width : 480px){ 
-    .mobileShow {display: inline;}
-}
+  /* Smartphone Portrait and Landscape */ 
+  @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 480px){ 
+      .mobileShow {display: inline;}
+  }
 
 /* ||||||||||||[MEDIA QUERIES]||||||| [MEDIA QUERIES] */
 /* ----------- iPhone 4 and 4S ----------- */
@@ -133,6 +150,7 @@ h6{
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
+  
   
 
 }
@@ -208,7 +226,7 @@ h6{
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-
+    
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
@@ -218,6 +236,7 @@ h6{
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
+    
 
 }
 
