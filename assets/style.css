@@ -1,315 +1,237 @@
-#box{
-    width: 620px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0; 
-    background-color: white; 
-    margin-left: 210px; 
-    margin-top: 70px; 
-   
+#box {
+  width: 620px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+  background-color: white;
+  margin-left: 210px;
+  margin-top: 70px;
 }
 
-#work{
+#work {
   width: 920px;
   padding: 10px;
   border: 5px solid gray;
-  margin: 0; 
-  background-color: white; 
-  margin-left: 110px; 
-  margin-top: 70px; 
- 
+  margin: 0;
+  background-color: white;
+  margin-left: 110px;
+  margin-top: 70px;
 }
 
-#data{
+#data {
   margin-left: 300px;
-  margin-bottom: 300px; 
+  margin-bottom: 300px;
 }
 
-h6{
-  margin-left: 15px; 
+h6 {
+  margin-left: 15px;
   color: black;
 }
- #demo-menu-lower-left{
-   margin-left: 430px; 
- }
+
+#demo-menu-lower-left {
+  margin-left: 430px;
+}
+
 /*-------------- CSS FOR IMAGES -------------*/
-#gem{
-  margin-left: 50px; 
-  width: 250px; 
+#gem {
+  margin-left: 50px;
+  width: 250px;
 }
 
-#psychic{
+#psychic {
   margin-left: 70px;
 }
-#basketball{
+
+#basketball {
   margin-left: 70px;
-  width: 200px;  
-  margin-bottom: 30px; 
-}
-
-#giphy{
   width: 200px;
-  margin-left: 50px; 
-  margin-bottom: 50px; 
-
+  margin-bottom: 30px;
 }
 
-#trivia{
-  width: 300px; 
+#giphy {
   width: 200px;
-  margin-left: 50px; 
+  margin-left: 50px;
+  margin-bottom: 50px;
 }
-#heroes{
-  width: 200px; 
-  margin-left: 100px; 
+
+#trivia {
+  width: 300px;
+  width: 200px;
+  margin-left: 50px;
+}
+
+#heroes {
+  width: 200px;
+  margin-left: 100px;
 }
 
 /*-----------------------------*/
 button {
-    background-color:blue;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
-#picture{
-    margin-left: 180px; 
-    border-radius: 8px;
+#picture {
+  margin-left: 180px;
+  border-radius: 8px;
 }
 
-#text{
-    margin-left: 400px; 
+#text {
+  margin-left: 400px;
 }
 
-h4{
-    margin-left: 200px; 
+h4 {
+  margin-left: 200px;
 }
 
-h5{
-  margin-left: 100px; 
+h5 {
+  margin-left: 100px;
 }
 
-h6{
-  margin-left: 30px; 
+h6 {
+  margin-left: 30px;
 }
 
-textarea{
-  margin-top: 30px; 
-  margin-left: 300px; 
-  width: 500px; 
-  height: 300px;
+form {
+  width: 500px;
+  background: white;
+  padding: 20px 25px;
+  margin: auto;
+  margin-top: 30px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-input{
-  margin-top: 100px; 
-  width: 495px; 
-  margin-left: 300px; 
-  height: 30px;
-}
-#send{
-  margin-left: 490px; 
-}
-
-/*||||||||||||||||||||||||||||||||||||||||||||||*/
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
+form input,
+form textarea {
+  font: inherit;
+  padding: 5px 5px;
+  width: 100%;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
+form button {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 8px 35px;
+  font-size: 12px;
+  background: #888;
+  color: white;
 
- .mobileShow {display: none;} 
-
-  /* Smartphone Portrait and Landscape */ 
-  @media only screen 
-    and (min-device-width : 320px) 
-    and (max-device-width : 480px){ 
-      .mobileShow {display: inline;}
+  /*||||||||||||||||||||||||||||||||||||||||||||||*/
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
   }
 
-/* ||||||||||||[MEDIA QUERIES]||||||| [MEDIA QUERIES] */
-/* ----------- iPhone 4 and 4S ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-  
-  
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-}
-
-/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    #work{
-      width: 500px; 
-      margin-left: 250px; 
-
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
     }
-    #gem{
+  }
+
+  .mobileShow {
+    display: none;
+  }
+
+  /* Smartphone Portrait and Landscape */
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .mobileShow {
+      display: inline;
+    }
+  }
+
+  /* ||||||||||||[MEDIA QUERIES]||||||| [MEDIA QUERIES] */
+  /* ----------- iPhone 4 and 4S ----------- */
+  /* Portrait and Landscape */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {}
+
+  /* Portrait */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+
+  /* Landscape */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
+
+  /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+  /* Portrait and Landscape */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {}
+
+  /* Portrait */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    #work {
+      width: 500px;
+      margin-left: 250px;
+    }
+
+    #gem {
       width: 100px;
     }
-    
-    #psychic{
-      width: 80px;  
+
+    #psychic {
+      width: 80px;
     }
-    #basketball{
-    width: 70px; 
+
+    #basketball {
+      width: 70px;
     }
-    
-    #giphy{
+
+    #giphy {
       width: 100px;
     }
-    
-    #trivia{
+
+    #trivia {
       width: 100px;
     }
-    #heroes{
-      width: 100px; 
-    }
-    #demo-menu-lower-left{
 
+    #heroes {
+      width: 100px;
     }
 
-}
+    #demo-menu-lower-left {}
+  }
 
-/* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    
-}
+  /* Landscape */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
 
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+  /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+  /* Portrait and Landscape */
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {}
 
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-    
+  /* Portrait */
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
 
-}
+  /* Landscape */
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
 
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+  /* ----------- iPhone 6+, 7+ and 8+ ----------- */
+  /* Portrait and Landscape */
+  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {}
 
-}
+  /* Portrait */
+  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {}
 
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
+  /* Landscape */
+  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {}
 
-}
+  /* ----------- iPhone X ----------- */
+  /* Portrait and Landscape */
+  @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {}
 
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+  /* Portrait */
+  @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {}
 
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
-}
-
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
-}
+  /* Landscape */
+  @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {}
