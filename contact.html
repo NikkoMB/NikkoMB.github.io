@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
   <link rel="stylesheet" href="style.css">
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-  <title>About Me</title>
+  <title>Contact Me</title>
 </head>
 
 <body background="assets/images/background.png">
@@ -34,57 +34,21 @@
       <div class="page-content">
         <!-- Your content goes here -->
         <br>
-<div class="sent">
-<form name="contactform" method="post" action="send_form_email.php">
-<table width="450px">
-<tr>
- <td valign="top">
-  <label for="first_name">First Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="first_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="last_name">Last Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="last_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="email">Email Address *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="email" maxlength="80" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="telephone">Telephone Number</label>
- </td>
- <td valign="top">
-  <input  type="text" name="telephone" maxlength="30" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="comments">Message </label>
- </td>
- <td valign="top">
-  <textarea id="textbox" name="comments" maxlength="1000" cols="25" rows="6"></textarea>
- </td>
-</tr>
-<tr>
- <td colspan="2" style="text-align:center">
-  <input type="submit" value="Submit">  
- </td>
-</tr>
-</table>
-</form>
-</div>
+        <form action="/contact" id="contact-form" method="post" role="form">
+          <fieldset>
+            <div id="name-e">
+            <label for="name">Name &#42;</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required="required">
+            <label for="email">Email &#42;</label>
+            <input id="email" name="email" type="text" placeholder="Your email" required="required">
+            </div>
+
+            <div id="message">
+              <textarea name="message" placeholder="Enter your message here" rows="3" required="required"></textarea>
+              <button type="submit">Submit</button>
+            </div>
+          </fieldset>
+        </form>
 
 </body>
 

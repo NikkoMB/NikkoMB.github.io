@@ -1,90 +1,121 @@
-/* ---------------- images CSS ------------------- */ 
+/* ---------------- images CSS ------------------- */
 
 img {
-    margin-left: 500px; 
+    margin-left: 500px;
     border-radius: 10%;
 }
 
-#giphy{
-    margin-left: 400px; 
+#giphy {
+    margin-left: 400px;
     border-radius: 10%;
-    margin-top: 50px; 
-    height: 200px; 
+    margin-top: 50px;
+    height: 200px;
 }
 
-#NBA{
-    height: 200px; 
-    margin-left: 50px; 
+#NBA {
+    height: 200px;
+    margin-left: 50px;
 }
 
-#crystal{
-    margin-left: 50px; 
+#crystal {
+    margin-left: 50px;
     border-radius: 10%;
-    margin-top: 50px; 
-    height: 200px; 
+    margin-top: 50px;
+    height: 200px;
 }
 
-#psychic{
-    margin-top: 50px; 
-    margin-right: 10px; 
+#psychic {
+    margin-top: 50px;
+    margin-right: 10px;
 }
 
-#trivia{
-    margin-left: 50px; 
-    height: 200px; 
-    margin-top: 50px; 
+#trivia {
+    margin-left: 50px;
+    height: 200px;
+    margin-top: 50px;
 }
 
 
-#heroes{
-    height: 200px; 
-    margin-left: 70px; 
-    margin-top: 50px; 
+#heroes {
+    height: 200px;
+    margin-left: 70px;
+    margin-top: 50px;
 }
 
-/* -------------- everything else CSS ------------------ */ 
+/* -------------- everything else CSS ------------------ */
 
-p{
+p {
     text-indent: 50px;
     text-align: justify;
-    margin: 50px; 
+    margin: 50px;
 }
 
-#contact{
-    margin-left: 500px; 
+#contact {
+    margin-left: 500px;
     font-size: 50px
 }
 
-#head{
-    margin-left: 450px; 
+#head {
+    margin-left: 450px;
     font-size: 50px
 }
 
-#portfolio{
-    margin-left: 550px; 
+#portfolio {
+    margin-left: 550px;
     font-size: 50px
 }
 
-h5{
-    margin-left: 40px; 
-    
+h5 {
+    margin-left: 40px;
+
 }
 
-.under{
-    margin-right: 50px; 
+.under {
+    margin-right: 50px;
 }
 
-.column{
-    margin-left: -100px; 
+.column {
+    margin-left: -100px;
 }
 
-/* -------------- E-MAIL FORM --------------------- */ 
-.sent{
-    margin-left: 500px; 
-    margin-top: 50px; 
+/* -------------- Contact Page CSS --------------------- */
+
+
+form {
+    position: relative;
+    width: 740px;
+    height: 498px;
+    margin: 0 auto;
+
 }
 
-#textbox{
-    height:200px;
+textarea {
+    height: 100px;
+    font-size: 24px;
+    padding: 10px;
     width: 500px; 
+}
+
+button {
+    margin-left: 50px;
+    background-color: blue; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 205px; 
+}
+
+#message {
+    margin-top: 100px;
+    margin-left: 90px;
+
+}
+
+#name-e{
+    margin-top: 60px; 
+    margin-left: 120px; 
 }
