@@ -1,4 +1,4 @@
-/* ---------------- images CSS ------------------- */
+/* ---------------- PORTFOLIO images CSS ------------------- */
 
 img {
     margin-left: 500px;
@@ -6,7 +6,7 @@ img {
 }
 
 #giphy {
-    margin-left: 400px;
+    margin-left: 500px;
     border-radius: 10%;
     margin-top: 50px;
     height: 200px;
@@ -14,7 +14,8 @@ img {
 
 #NBA {
     height: 200px;
-    margin-left: 50px;
+    margin-left: 80px;
+    margin-top: 40px; 
 }
 
 #crystal {
@@ -35,12 +36,6 @@ img {
     margin-top: 50px;
 }
 
-
-#heroes {
-    height: 200px;
-    margin-left: 70px;
-    margin-top: 50px;
-}
 
 /* -------------- everything else CSS ------------------ */
 
