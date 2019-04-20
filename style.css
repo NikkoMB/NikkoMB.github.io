@@ -1,121 +1,34 @@
-/* ---------------- PORTFOLIO images CSS ------------------- */
-
-img {
-    margin-left: 500px;
-    border-radius: 10%;
+#port{
+    margin-top: 60px;
+    margin-left: 20px;
 }
 
-#giphy {
-    margin-left: 500px;
-    border-radius: 10%;
-    margin-top: 50px;
-    height: 200px;
+#cont{
+    margin-left: 20px;
 }
 
-#NBA {
-    height: 200px;
-    margin-left: 80px;
-    margin-top: 40px; 
+#directory{
+    margin-left: 45px;
 }
 
-#crystal {
-    margin-left: 50px;
-    border-radius: 10%;
-    margin-top: 50px;
-    height: 200px;
+.jumbotron {
+    background-color: black;
 }
 
-#psychic {
-    margin-top: 50px;
-    margin-right: 10px;
-}
-
-#trivia {
-    margin-left: 50px;
-    height: 200px;
-    margin-top: 50px;
-}
-
-
-/* -------------- everything else CSS ------------------ */
-
-p {
-    text-indent: 50px;
-    text-align: justify;
-    margin: 50px;
-}
-
-#contact {
-    margin-left: 500px;
-    font-size: 50px
-}
-
-#head {
-    margin-left: 450px;
-    font-size: 50px
-}
-
-#portfolio {
-    margin-left: 550px;
-    font-size: 50px
-}
-
-h5 {
-    margin-left: 40px;
-
-}
-
-.under {
-    margin-right: 50px;
-}
-
-.column {
-    margin-left: -100px;
-}
-
-/* -------------- Contact Page CSS --------------------- */
-
-
-form {
-    position: relative;
-    width: 740px;
-    height: 498px;
-    margin: 0 auto;
-
-}
-
-textarea {
-    height: 100px;
-    font-size: 24px;
-    padding: 10px;
-    width: 500px; 
-}
-
-button {
-    margin-left: 50px;
-    background-color: blue; 
-    border: none;
+#name{
     color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-left: 205px; 
 }
 
-#message {
-    margin-top: 100px;
-    margin-left: 90px;
-
+#desc{
+    color: white;
 }
 
-#name-e{
-    margin-top: 60px; 
-    margin-left: 120px; 
+#nikko{
+   height: 150px;
+   width: 140px;
 }
 
-
-#label-e{
-    margin-left: 40px; 
+#bio{
+    margin-left: 100px;
+    font-size: 12px;
 }
