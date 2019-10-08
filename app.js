@@ -9,7 +9,7 @@ app.listen(process.env.PORT || 9000, () => {
     console.log('..LISTENING ON PORT 9000..');
 });
 
-app.use('/public', express.static(path.join(__dirname, '/public')));
+app.use('/images', express.static(path.join(__dirname, '/images')));
 app.use('/styles.css', express.static(path.join(__dirname, '/styles.css')));
 
 
