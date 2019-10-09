@@ -9,3 +9,35 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
+#logo{
+  height: 280px;
+  top: 100px;
+}
+
+#card-body{
+  size: 10px;
+}
+
+nav{
+  position: absolute;
+  top: 280px;
+  left: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+}
+
+#home{
+ margin-right: 10px;
+}
+
+#contact{
+  margin-left: 10px;
+}
+
+a{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 30px;
+  color: black
+
+}
+
