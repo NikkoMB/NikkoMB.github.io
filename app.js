@@ -19,12 +19,8 @@ app.get('/', (req,res) => { //HOME PAGE
     res.sendFile(path.join(__dirname, 'index.html'));
 });
  
-app.get('/about.html', (req,res) => { //ABOUT PAGE
-    res.sendFile(path.join(__dirname, 'about.html'));
-});
-
-app.get('/blog.html', (req,res) => { //BLOG PAGE
-    res.sendFile(path.join(__dirname, 'blog.html'));
+app.get('/portfolio.html', (req,res) => { //ABOUT PAGE
+    res.sendFile(path.join(__dirname, 'portfolio.html'));
 });
 
 app.get('/contact.html', (req,res) => { //CONTACT PAGE

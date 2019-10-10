@@ -10,8 +10,9 @@ h6 {
 }
 
 #logo{
-  height: 280px;
-  top: 100px;
+  height: 230px;
+  top: 10%;
+  right: 200px;
 }
 
 #card-body{
@@ -20,9 +21,8 @@ h6 {
 
 nav{
   position: absolute;
-  top: 280px;
+  top: 240px;
   left: 50%;
-  overflow: hidden;
   transform: translate(-50%, -50%);
 }
 
@@ -36,8 +36,29 @@ nav{
 
 a{
   font-family: 'Alfa Slab One', cursive;
-  font-size: 30px;
-  color: black
+  font-size: 1å0px;
+  color: black;
 
 }
 
+body{
+  background-repeat: no-repeat;
+  background-size: 120%; 
+}
+
+#profile{
+  height: 300px;
+  border-radius: 50%;
+}
+
+.card-header {
+  background-color: lightgray;
+}
+
+img{
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 300px;
+}
