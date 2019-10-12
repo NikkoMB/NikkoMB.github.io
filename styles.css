@@ -1,64 +1,44 @@
-html,
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Roboto", sans-serif;
+nav {
+    grid-area: header;
 }
 
-#logo{
-  height: 230px;
-  top: 10%;
-  right: 200px;
+
+
+h1 {
+    margin-left: 566px;
 }
 
-#card-body{
-  size: 10px;
+#header1 {
+    background-color: black;
+    color: white;
 }
 
-nav{
-  position: absolute;
-  top: 240px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#home{
- margin-right: 10px;
-}
-
-#contact{
-  margin-left: 10px;
-}
-
-a{
-  font-family: 'Alfa Slab One', cursive;
-  font-size: 1å0px;
-  color: black;
+.avatar {
+    vertical-align: middle;
+    height: 210px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 580px;
 
 }
 
-body{
-  background-repeat: no-repeat;
-  background-size: 120%; 
-}
+p {
+    width: 60%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    margin-left: 300px;
+    background-color: beige;
+  }
 
-#profile{
-  height: 300px;
-  border-radius: 50%;
-}
+  h2{
+      margin-left: 550px;
+      margin-top: 10px;
+  }
 
-.card-header {
-  background-color: lightgray;
-}
-
-img{
-  position: absolute;
-  top: 100px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 300px;
-}
+  #header2{
+      background-color: black;
+      color: white;
+  }
