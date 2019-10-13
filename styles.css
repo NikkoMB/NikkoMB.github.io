@@ -18,7 +18,7 @@ h1 {
     height: 210px;
     border-radius: 50%;
     margin-top: 10px;
-    margin-left: 580px;
+    margin-left: 650px;
 
 }
 
@@ -41,4 +41,9 @@ p {
   #header2{
       background-color: black;
       color: white;
+  }
+
+  body{
+      background-size: 100%;
+      background-repeat: no-repeat;
   }

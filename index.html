@@ -23,7 +23,7 @@
 
 </head>
 
-<body background="images/wallpaper.png">
+<body background="images/post.png">
   <div class="altogether">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -47,28 +47,33 @@
     <br>
     <!-- Content here -->
   </div>
-  <h1>
-    <mark id="header1">
-      What's Up?
-    </mark>
-  </h1>
-  <div>
-    <img src="images/avatar.jpg" alt="Avatar" class="avatar">
+  <img src="images/avatar.jpg" alt="Avatar" class="avatar">
+  <!-- Modal -->
+   <!-- Button trigger modal -->
+<button id="about" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
   </div>
-  <br>
-  <h2>
-    <mark id="header2">
-      My name is Nikko!
-    </mark>
-  </h2>
-  <br>
-  <p>
-    Coding is a new passion that I started to leap on not too long ago. I became inspired from hearing success stories
-    of friends and people who didn't have coding backgrounds who ended up being extremely successful. With that
-    inspiration, I attended and graduated from the Rutgers University Coding Bootcamp where I learned the latest
-    syntaxes, learned how to work with others, and learned how to be patient with coding. I just have the passion to
-    work hard and to code with style.
-  </p>
 </body>
 
 </html>
