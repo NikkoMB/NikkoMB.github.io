@@ -26,3 +26,7 @@ app.get('/portfolio.html', (req,res) => { //ABOUT PAGE
 app.get('/contact.html', (req,res) => { //CONTACT PAGE
     res.sendFile(path.join(__dirname, 'contact.html'));
 });
+
+app.get('/resume.html', (req,res) => {
+    res.sendFile(path.join(__dirname, 'resume.html'));
+})
