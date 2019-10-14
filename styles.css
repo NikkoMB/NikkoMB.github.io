@@ -1,5 +1,7 @@
 nav {
     grid-area: header;
+    width: 450px;
+    margin-left: 550px;
 }
 
 
@@ -60,4 +62,8 @@ h1{
 mark{
     color: white;
     background-color: teal;
+}
+
+ul{
+    margin-left: 80px;
 }
