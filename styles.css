@@ -29,10 +29,6 @@ p {
     background-color: beige;
   }
 
-  h2{
-      margin-left: 550px;
-      margin-top: 10px;
-  }
 
   #header2{
       background-color: black;
@@ -40,20 +36,14 @@ p {
   }
 
   body{
-    background-size: cover; /* or contain depending on what you want */
     background-position: center center;
     background-repeat: no-repeat;
-    text-align:center;
-    margin:auto;
-    padding:0;
-    width: 1500px;
-    height:600px;
   }
 
 #about{
     position: relative !important;
     margin-top: 50px;
-    margin-right: 40px;
+    margin-left: 700px;
 }
 
 #stuff{
@@ -64,6 +54,7 @@ p {
 
 h1{
     font-size: 60px;
+    margin-left: 500px;
 }
 
 mark{
