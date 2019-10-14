@@ -4,7 +4,9 @@ nav {
     margin-left: 550px;
 }
 
-
+.container{
+    display: grid;
+}
 
 #header1 {
     background-color: black;
@@ -20,16 +22,6 @@ nav {
 
 }
 
-p {
-    width: 60%;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-size: 20px;
-    margin-left: 300px;
-    background-color: beige;
-  }
 
 
   #header2{
