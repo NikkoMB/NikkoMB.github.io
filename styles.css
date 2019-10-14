@@ -4,10 +4,6 @@ nav {
 
 
 
-h1 {
-    margin-left: 566px;
-}
-
 #header1 {
     background-color: black;
     color: white;
@@ -44,6 +40,33 @@ p {
   }
 
   body{
-      background-size: 100%;
-      background-repeat: no-repeat;
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+    width: 1500px;
+    height:600px;
   }
+
+#about{
+    position: relative !important;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+#stuff{
+    margin-top: 100px !important;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+h1{
+    font-size: 60px;
+}
+
+mark{
+    color: white;
+    background-color: teal;
+}
