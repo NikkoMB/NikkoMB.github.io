@@ -59,5 +59,9 @@ ul{
 }
 
 .row{
-    margin-left: 100px;
+    margin-left: 30px;
+}
+
+.card{
+    height: 650px;
 }
