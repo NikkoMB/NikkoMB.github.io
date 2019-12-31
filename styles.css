@@ -1,4 +1,4 @@
-.nav{
+.nav {
     width: 350px;
     padding: 10px;
     border: 2px solid black;
@@ -6,10 +6,21 @@
     background-color: gray;
 }
 
-a:hover{
+a:hover {
     color: black;
 }
 
-a{
+a {
     color: white;
+}
+
+h2 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 100px;
+
+}
+
+h1{
+    font-family: 'Mukta', sans-serif;
+    font-size: 100px;
 }
