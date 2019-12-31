@@ -17,10 +17,7 @@ a {
 h2 {
     font-family: 'Mukta', sans-serif;
     font-size: 100px;
-
+    text-shadow: 2px 2px white;
+    position: relative;
 }
 
-h1{
-    font-family: 'Mukta', sans-serif;
-    font-size: 100px;
-}
