@@ -1,0 +1,15 @@
+.nav{
+    width: 350px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 0;
+    background-color: gray;
+}
+
+a:hover{
+    color: black;
+}
+
+a{
+    color: white;
+}
