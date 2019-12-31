@@ -18,6 +18,13 @@ h2 {
     font-family: 'Mukta', sans-serif;
     font-size: 100px;
     text-shadow: 2px 2px white;
-    position: relative;
 }
 
+p{
+    width: 350px;
+    padding: 10px;
+    border: 2px solid transparent;
+    margin: 0;
+    color: white;
+    font-size: 20px;
+}
