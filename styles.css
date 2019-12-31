@@ -20,11 +20,20 @@ h2 {
     text-shadow: 2px 2px white;
 }
 
+h3{
+    font-size: 80px;
+}
+
 p{
-    width: 350px;
+    width: 390px;
     padding: 10px;
     border: 2px solid transparent;
     margin: 0;
     color: white;
     font-size: 20px;
+}
+
+b{
+    color: white ;
+    background-color: gray;
 }
