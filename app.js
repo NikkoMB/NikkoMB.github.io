@@ -2,6 +2,7 @@
 
 const express = require('express');
 const path = require('path');
+const $ = require('jquery');
 
 const app = express();
 
@@ -11,6 +12,7 @@ app.listen(process.env.PORT || 9000, () => {
 
 app.use('/images', express.static(path.join(__dirname, '/images')));
 app.use('/styles.css', express.static(path.join(__dirname, '/styles.css')));
+app.use('/jquery', express.static(__dirname + '/node_modules/jquery/dist/'));
 
 
 ////////////////////////////////////////////////////////////////////

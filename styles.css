@@ -27,11 +27,17 @@ a {
     color: white;
 }
 
+.first{
+    display: none;
+}
+
 h2 {
     font-family: 'Mukta', sans-serif;
     font-size: 130px;
     text-shadow: 2px 2px white;
 }
+
+
 
 h3{
     font-size: 80px;
