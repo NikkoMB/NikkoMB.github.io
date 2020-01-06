@@ -19,6 +19,11 @@ body{
     background-color: gray;
 }
 
+#skills:hover{
+    cursor: pointer;
+    color: black;
+}
+
 a:hover {
     color: black;
 }
@@ -30,6 +35,8 @@ a {
 .first{
     display: none;
 }
+
+
 
 h2 {
     font-family: 'Mukta', sans-serif;
