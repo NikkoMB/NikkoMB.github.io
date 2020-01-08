@@ -41,11 +41,14 @@
         </li>
       </ul>
     </div>
+    </div>
     <br>
     <br>
     <br>
     <!-- ENTER CONTENT BELOW -->
-    <div class="col align-self-center first">
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6  about_it">
       <h3>
         About Me
       </h3>
@@ -59,20 +62,20 @@
       </p>
       <img src="images/robot_point.gif" style="height: 140px;">
     </div>
-    <!---->
+    
     <br>
-    <div class="row justify-content-end">
-      <span>
-        <img src="images/thumbs_up.gif" style="height: 70px;">
-      </span>
+    <div class="col-lg-6 col-md-6 col-sm-6 skills">
       <a  id="" data-toggle="modal" data-target="#exampleModal">
         <h3 id="skills">
           Skills
         </h3>
       </a>
+      <!-- RESUME  -->
+      <img src="images/thumbs_up.gif" style="height: 160px;">
+    <!-- MODAL -->
       
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
@@ -105,17 +108,23 @@
           </div>
         </div>
       </div>
-      
+   
+  
     </div>
-  </div>
+    </div>
+
+<!-- END OF MODAL -->
+
+
 
   <script>
     'use strict';
     $(document).ready(function () {
       console.log("..warming up jQuery..");
-      $('.first').slideDown(1000);
-
+      $('.about_it').slideDown(1000);
     });
   </script>
 
 </body>
+
+</html>
